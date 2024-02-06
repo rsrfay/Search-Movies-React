@@ -1,0 +1,104 @@
+/* 6488021 Russarin Eaimrittikrai Section 2 */
+* {
+    font-family: 'Nunito';
+}
+body {
+    /* Gradient code generator: https://cssgradient.io/ */
+    background: rgb(255,240,146);
+    background: radial-gradient(circle, rgba(255,240,146,1) 0%, rgba(148,233,207,1) 100%);
+}
+/* Icon on Movie Search */
+#iconMovie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 12%;
+}
+/* Input holder */
+input {
+    box-sizing: border-box;
+    width: 90%;
+    padding: 15px 15px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 50px;
+    border-width: 0;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+/* Submit button */
+.submit-btn {
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-size: medium;
+    background: #d85052;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #d32225;
+}
+
+/* Image sizing */
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Put all results into a card */
+.results {
+    padding: 20px;
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    /*wrap into multiple lines*/
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+/* Each result card of each movie */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+#release {
+    font-style: italic;
+}
+
+/* For desktop screen */
+@media screen and (min-width: 768px) {
+    .results {
+        display: flex;
+        flex-wrap: wrap;
+        /*wrap into multiple lines*/
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .card {
+        width: 30%;
+        min-height: 700px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+        margin: 2px 2px;
+    }
+}
