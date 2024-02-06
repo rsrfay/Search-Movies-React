@@ -1,6 +1,6 @@
 # Search Movies React
 ---
-This project is an implementation of a web application using **React** and **[The Movie DB](https://developer.themoviedb.org/reference/intro/getting-started)** to search movie information by movie name, movie region, and released year
+This project is an implementation of a web application using **React** and **[The Movie DB](https://developer.themoviedb.org/reference/intro/getting-started) API** to search movie information by movie name, movie region, and released year
 
 ### How to start the web application
 1. Open the files in any code editor such as VS Code.
