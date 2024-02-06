@@ -1,4 +1,4 @@
-# Search-Movies-React
+# Search Movies React
 ---
 This project is an implementation of a web application using **React** and **[The Movie DB](https://developer.themoviedb.org/reference/intro/getting-started)** to search movie information by movie name, movie region, and released year
 
